@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">MY SURVEY FORM</h1>
+    <p id="description">Thank you for taking the time to fill this form</p>
+<form id="survey-form">
+  <fieldset>
+
+    <label id="name-label">What does people call you? <input required id="name" type="text" placeholder="Enter Your Name"></label>
+
+    <label id="email-label">What's you email address? <input required id="email" type="email" placeholder="Enter Your Email Address"></label>
+
+<label id="number-label">What's your age?(optional) <input id="number" type="number" placeholder="Enter Your Age" min="13" max="120"></label>
+    </fieldset>
+
+    <fieldset>
+      <label>Do you like pets?</label>
+      <label>Yes<input name="liking" id="pet" value="1" type="radio" class="inline"></label>
+      <label>No<input name="liking" id="pet" value="2" type="radio" class="inline"></label>
+      </fieldset>
+
+<fieldset>
+<label>what you like more as a pet?
+  <select id="dropdown" name="choose">
+    <option value="">(Select one)</option>
+    <option value="1">Dog</option>
+    <option value="2">Cat</option>
+    </select>
+</label>
+    </fieldset>
+
+    <fieldset>
+      <label name="dog-breed">What breeds you like?</label>
+
+      <label for="dog-breed" class="breed"><input value="1" type="checkbox" id="dog-breed"> Golden Retreiver</label>
+
+       <label for="dog-breed" class="breed"><input value="2" type="checkbox" id="dog-breed">German Shephard</label>
+
+        <label for="dog-breed" class="breed"><input value="3" type="checkbox" id="dog-breed">Husky</label>
+
+         <label for="dog-breed" class="breed"><input value="4" type="checkbox" id="dog-breed">Pomerian</label>
+
+          <label for="dog-breed" class="breed"><input value="5" type="checkbox" id="dog-breed">Labrador</label>
+
+           <label for="dog-breed" class="breed"><input value="6" type="checkbox" id="dog-breed">Poodle</label>
+
+            <label for="dog-breed" class="breed"><input value="7" type="checkbox" id="dog-breed">All</label>
+      </fieldset>
+
+      <fieldset>
+<label for="query">Anything Queries?
+  <textarea id="query" name="query" rows="3" cols="30" placeholder="Write your queries here..."></textarea>
+  </label>
+      </fieldset>
+      <input id="submit" class="submit" type="submit" value="Submit" />
+  </form>
+  </body>
+  </html>
