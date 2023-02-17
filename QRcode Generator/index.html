@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCode Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5a0c76fb49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=1000X1000&data=https://ayushh02.github.io/Portfolio/" alt="qrcode">
+        <input type="text" class="qrtext" placeholder="Enter Text">
+       <div class="buttons">
+        <a href="https://api.qrserver.com/v1/create-qr-code/?size=1000X1000&data=https://ayushh02.github.io/Portfolio/" class="download btn" download="qrcode">
+            <span>Download</span>
+            <i class="fa-solid fa-download"></i>
+        </a>
+        <button class="btn share">       
+            <span>Share</span>
+            <i class="fa-sharp fa-solid fa-square-share-nodes"> </i>
+        </button>
+        
+    </div>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
