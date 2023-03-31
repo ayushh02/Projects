@@ -1,0 +1,96 @@
+*{
+    border: 1px solid black;
+}
+body{
+    background: linear-gradient(#f38585, #9198e5);
+    overflow: hidden;
+    margin: 0px;
+    padding: 30px;
+
+}
+.page{
+    display: flex;
+    margin-top: 50px;
+    height: 90vh;
+}
+
+/*Draw-Area*/
+.field{
+    
+    width: 70%;
+    height: 80%;
+}
+.tools .color-field{
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-self: center;
+    margin: 0 10px;
+
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+
+.tools .button{
+    align-self:center;
+    width: 100px;;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+    margin: 0 10px;
+     
+}
+
+.color-picker{
+    align-self: center;
+    margin:0 10px;
+    height: 50px;
+
+}
+
+.pen-range{
+    align-self: center;
+    margin: 0 10px;
+}
+
+canvas{
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Chat-Area*/
+
+.chat{
+    border: 2px solid red;
+   width: 100%;
+}
+.all_chat{
+    height: 90%;
+}
+.my_chat{
+
+    width: 100%;
+}
+.write{
+    width: 100%;
+}
